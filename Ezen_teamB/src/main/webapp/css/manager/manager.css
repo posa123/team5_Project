@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#header{
+	display: none !important;
+}
+
+#backgroundWrap {
+	width: 5000px;
+	height: 5000px;
+	background-color: #242F40; 
+}
+        
+.managerWrap{
+	border: 1px solid #001364;
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	    /* 다음 줄은 페이지 크기에 따라 가로 및 세로 중앙 정렬을 유지하기 위해 사용할 수 있는 예시입니다. */
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    box-sizing: border-box;
+	
+}
+/* 반응형 스타일링을 적용하기 위해 미디어 쿼리를 사용할 수 있습니다. */
+@media (max-width: 768px) {
+    .managerWrap {
+        /* 화면 너비가 768px 이하일 때 적용되는 스타일 */
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+
+.leftSubOutput{
+	width: 210px;
+	height: 600px;
+}
+.rightMainOutput{
+	width: 880px;
+	background-color: white;
+}
+.leftSubOutput{
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #001364;
+	color: white;
+}
+
+
+.memberListManager,
+.statisticsManager,
+.tradelogManager,
+.emediationManager{
+	border-bottom : 1px solid #e8e8e8; 
+	margin: 17px;
+	margin-top: 32px;
+}
+
+.memberListManager,
+.statisticsManager,
+.tradelogManager,
+.emediationManager:hover {
+    cursor: pointer;
+}
+
+
+/* 좌측 버튼 구역 */
+.SubBottomBox {
+	padding-top: 200px; 
+	text-align: center;
+}
+
+.clearManagerMode, .logoutManagerBtn{
+	width: 140px;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #6D6D6D;
+	border: 1px solid black;
+}
+.logoutManagerBtn {
+    margin-top: 20px;
+}
+
+/* 카테고리 통계 css */
+.printBox{
+	width: 100%;
+}
+
+/* 통계 테이블 */
+.printBox table{
+	border-collapse: collapse;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+.cStatisticListTable th, .cStatisticListTable td{
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.cStatisticListTable th{
+	background-color: #f2f2f2;
+    height: 44px;
+    box-sizing: border-box;
+}
+
+.cStatisticListTable td{
+	height: 30px;	
+	box-sizing: border-box;
+}
+
+.stResult{
+	background-color: #C2F3FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

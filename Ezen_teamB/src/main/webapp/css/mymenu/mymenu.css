@@ -1,0 +1,586 @@
+@charset "UTF-8";
+
+.infoBox{
+	margin-top: 20px;
+}
+
+/* 마이메뉴 내정보구역 */
+.infoTop{
+	padding: 10px;
+	border: 1px solid #e8e8e8;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* 마이메뉴 텍스트 */
+.infoTitletxt{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.infoTitletxt::after{
+	content: '';
+    width: 100%;
+    height: 6px;
+    background-color:#9767EB;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+.infoContent{
+	height: 100%;
+	position: relative;
+}
+
+/* 아이디 */
+.contentHeader{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.contentHeader::before{
+	content: '';
+    width: 5px;
+    height: 15px;
+    background-color: #F58D6C;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contentHeader span{
+	font-size: 12px;
+}
+
+/* 내 정보 내용 박스 */
+.infoDetail{
+	margin-left: 10px;
+}
+
+/* 내 정보 내용 */
+.contentMain{
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	font-size: 17px;
+}
+
+.contentMain span{
+	color: #F58D6C;
+}
+
+
+/* 정보 로고들 */
+
+.titleTop::before{
+	content: "";
+	display: inline-block;
+  	background-image: url( "/Ezen_teamB/jsp/mymenu/img/logo1.png" );
+  	background-size: 14px 14px;
+  	width: 14px;
+  	height: 14px;
+  	margin-right: 5px;
+}
+
+.tradeTop::before{
+	content: "";
+	display: inline-block;
+  	background-image: url( "/Ezen_teamB/jsp/mymenu/img/logo2.png" );
+  	background-size: 14px 14px;
+  	width: 14px;
+  	height: 14px;
+  	margin-right: 5px;
+}
+
+.saleTop::before{
+	content: "";
+	display: inline-block;
+  	background-image: url( "/Ezen_teamB/jsp/mymenu/img/logo3.png" );
+  	background-size: 14px 14px;
+  	width: 14px;
+  	height: 14px;
+  	margin-right: 5px;
+}
+
+.pointTop::before{
+	content: "";
+	display: inline-block;
+  	background-image: url( "/Ezen_teamB/jsp/mymenu/img/logo4.png" );
+  	background-size: 14px 14px;
+  	width: 14px;
+  	height: 14px;
+  	margin-right: 5px;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* 내 정보 내용 개별 구역 */
+.contentMain div{
+	margin-right: 20px;
+}
+
+/* 상세정보 내용 */
+.name, .address, .email{
+	margin-bottom: 10px;
+}
+
+
+/* 마이메뉴 서브메뉴 구역*/
+.infoBottom{
+}
+
+/* 비활성화된 서브메뉴 */
+.nav-link{
+	color: #9e9e9e !important;
+}
+
+/* 활성화된 서브메뉴 */
+.nav-link.active{
+	color: black !important;
+	font-weight: bold;
+}
+
+
+/* 해당메뉴 정보 출력 구역 */
+.printContent{
+	border-bottom: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	height: 820px;
+}
+
+/* 상품정보 텍스트 */
+.productCount{
+	padding: 20px;
+}
+
+.cardInfo{
+	padding: 10px;
+}
+
+/* 상품 하나구역 */
+.table{
+	padding: 10px;
+}
+
+.tableContent img{
+	width: 100px;
+	height: 100px;
+}
+
+.email{
+	margin-bottom: 20px;
+}
+
+/* 내정보 수정 버튼 */
+.updateBtn{
+	font-size: 10px !important;
+	position: absolute;
+    top: 85px;
+    right: 10px;
+}
+
+/* 회원탈퇴 버튼 */
+.deleteBtn{
+	font-size: 10px !important;
+	position: absolute;
+    top: 115px;
+    right: 10px;
+}
+
+.nav-tabs{
+	width: 100%;
+	border-radius: 0;
+}
+
+/* 판매완료 텍스트 */
+.saleComplete{
+	color: black;
+	background-color: #e8e8e8;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+/* 상품 숫자 텍스트 */
+.countText{
+	color: red;
+}
+
+/* 찜목록 삭제 버튼 */
+.wdbtn{
+	font-size: 12px !important;
+}
+
+/* 채팅방 커서 */
+.chatJoinBtn{
+	cursor: pointer;
+}
+
+/* 목록 커서 */
+.goItemBtn{
+	cursor: pointer;
+}
+
+/* --------------- 포인트 팝업 --------------- */
+
+/* 팝업 창 스타일링 */
+.custom-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000; /* 팝업의 z-index 값을 높게 설정 */
+}
+
+.custom-popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 555px;
+    height: 558px;
+}
+
+.customPopInfo{
+	margin-left: 9px;
+	width: 200px;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.close-custom-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* 팝업 열기 버튼 스타일링 */
+#openCustomPopup {
+    border: none;
+    background-color: #9767EB;
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+
+
+/* 상단 금액 */
+.outputAmountField {
+    display: flex;
+    flex-wrap: wrap; /* 버튼이 넘칠 경우 자동으로 줄 바꿈 */
+    gap: 10px; /* 버튼 간격 설정 */
+    max-width: 500px; /* 버튼 컨테이너의 최대 너비 설정 */
+    margin: 0 auto;
+    justify-content: space-around;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 20px;
+}
+.outputAmountField button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 49px;
+    
+}
+
+/* 하단 결제방식 */
+.outputPayMethod{
+	display: flex;
+    flex-wrap: wrap; /* 버튼이 넘칠 경우 자동으로 줄 바꿈 */
+    gap: 10px; /* 버튼 간격 설정 */
+    max-width: 500px; /* 버튼 컨테이너의 최대 너비 설정 */
+    margin: 0 auto;
+    justify-content: space-around;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.outputPayMethod button {
+    padding: 5px 10px;
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 87px;
+    height: 70px;
+    
+}
+/* 선택 출력구역 */
+.pointBox, .methodBox{
+	font-weight: bold;
+}
+.selectedPoint, .selectedMethod{
+	color: red;
+}
+/* 결제 버튼 구역 */
+.liquidateBtn{
+	width: 80px;
+	height: 38px;
+	border: 1px solid #0dcaf0;
+	color: #0dcaf0;
+	background-color: white;
+	border-radius: 5px;
+}
+.bottomOutputField{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #e8e8e8;
+	margin-top: 20px;
+	padding-top: 33px;
+}
+/* ----------------- 모달창 ---------------------- */
+
+.adressBox{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 우편번호 찾기 버튼 */
+.adrbtn{
+	height: 58px;
+    margin-right: 20px;
+}
+
+
+/* -------------- 안전결제 --------------- */
+/* 안전결제 전체구역 */
+.safepayStateBox {
+    width: 1180px;
+    margin: 0 auto;
+    border: 1px solid #e8e8e8;
+    padding: 10px; /* 상자 주위에 간격을 추가합니다. */
+}
+
+/* 안전결제 상단 구역 */
+.safepayBtnBox {
+    text-align: center; /* 버튼을 가운데 정렬합니다. */
+    margin-bottom: 10px; /* 버튼 아래에 간격을 추가합니다. */
+}
+
+.buyLogBtn, .sellLogBtn {
+	width: 575px;
+    background-color: #A2A7E8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.safepaySearchField{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.selectDateBox{
+	margin-bottom: 10px;
+}
+.selectDateBox input{
+	width: 250px;
+	height: 35px;
+	padding-left: 25px;
+}
+.dateStartBtn{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.dateEndBtn{
+	margin-left: 10px;
+}
+.selectFilterBox{
+	margin-left: 20px;
+	height: 35px;
+	width: 180px;
+}
+
+
+
+/* 테이블 */
+.safepayStateTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.safepayStateTable th, .safepayStateTable td {
+    border: none; /* 테이블 셀의 border 제거 */
+    padding: 8px;
+    text-align: center;
+}
+
+.safepayStateTable th {
+    background-color: #e8e8e8;
+}
+
+/* 버튼 스타일 */
+.safepayStateTable button {
+    background-color: #A0A0C1;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.buyLogBtn:hover, .sellLogBtn:hover {
+    background-color: #9767EB; /* 호버 시 배경색 변경 */
+}
+
+
+/* 각 th에 다른 너비 적용 */
+	/* 진행상태 */
+.safepayStateTable th:nth-child(1) {
+    width: 140px; /* 첫 번째 th의 너비 */
+}
+	/* 물품제목 */
+.safepayStateTable th:nth-child(2) {
+    width: 547px; /* 두 번째 th의 너비 */
+}
+	/* 판매자ID */
+.safepayStateTable th:nth-child(3) {
+    width: 170px; /* 세 번째 th의 너비 */
+}
+	/* 일시 */
+.safepayStateTable th:nth-child(4) {
+    width: 167px; /* 네 번째 th의 너비 */
+}
+
+.safepayStateTable td:nth-child(1){
+	color: red;
+	font-weight: bold;
+}
+
+.searchBtn{
+	width: 60px;
+	height: 35px;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+
+/* ============= 페이징 버튼 구역 */
+.pagingBtnField{
+	
+	width: 350px;
+	text-align: center;
+	margin: 0 auto;
+		
+}
+.pagingBtnField button{
+	width: 28px;
+	height: 28px;
+	font-weight: bold;
+	background-color: #FAFAFA;
+	border: 1px solid #E1E1E1;
+}
+.beforePageBtn{
+	margin-right: 10px;
+}
+.afterPageBtn{
+	margin-left: 10px;
+}
+.centerPageBtn{
+	width: 35px !important;
+	height: 31px !important;
+}
+
+/* ============= 팝업 구역 */
+/* 팝업을 감싸는 컨테이너 */
+.popup-container {
+    display: none; /* 초기에는 숨김 상태로 설정 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* 배경을 어둡게 함 */
+    z-index: 999; /* 다른 요소 위에 나타나도록 설정 */
+}
+
+/* 팝업 내용 */
+.popup-content {
+    background-color: #fff;
+    width: 530px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding-top: 40px;
+}
+.popupTitle{
+	text-align: center;
+}
+.detailedTable{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.dateinfo{
+	font-weight: bold;
+	font-size: 23px;
+	color: #311857;
+	text-align: center;
+}
+.dateValue{
+	font-size: 23px;
+	text-align: center;
+	color: #8F918E;
+}
+
+#closePopup{
+	margin-top: 20px;
+	width: 50px;
+	height: 35px;
+	color: white;
+	border: none;
+	background-color: #A0A0C1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

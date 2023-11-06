@@ -1,0 +1,5 @@
+.IdPwSearch{display: flex; justify-content: space-between;}
+.container{width: 1000px !important;}
+.loginInfo{color: black;}
+
+#searchEmail{width: 270px;}

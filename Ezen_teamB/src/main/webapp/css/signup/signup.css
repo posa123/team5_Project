@@ -1,0 +1,101 @@
+
+/* input number 증감, 감소 스크롤 없애기 */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+	
+/* 인풋 박스 포커스시 placeholder 제거 */
+input:focus::-webkit-input-placeholder{color:transparent; }
+/* 인풋 박스 포커스시 테두리 없음*/
+input:focus{ outline: none !important;}
+/* 가이드 글자 크기 */
+input::placeholder{ font-size: 12px; }
+
+/* 전체구역 사이즈 조정 */
+.container{width: 450px !important;}
+
+/* 상단 가지가지~ 마진 */
+.signInfo{margin: 50px 0px; width: 350px;text-align: center;
+color: #9767EB ; font-weight: bold;}
+
+
+/* 스크롤바 항상 보이기 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #a9a9a9;
+}
+
+/* 회원가입 글자 포인트 */
+.signfont{ font-weight: bold;
+}
+/* 주소 입력칸 css */
+.addressCss{display: flex; align-items:  center;
+ text-align: center;}
+
+.addressDisplay{display: flex; justify-content: space-between; width: 350px;}
+ 
+#signAddress{width: 280px; margin-right: 12px;}
+
+/* 주민번호 입력 뒷자리 * 처리 */
+#signResidentNumS{
+-webkit-text-security: disc;
+}
+
+/* 회원가입 버튼 */
+.signbtn{
+	width: 350px; 
+	border: 1px solid #9767EB !important; 
+	background-color: #9767EB !important; 
+	font-weight: bold !important; 
+	color: white !important;
+	height : 50px;
+	margin-bottom: 50px;
+
+}
+
+/* 인증번호 버튼 */
+.authBtn{
+	width: 70px; 
+	border: 1px solid #9767EB !important; 
+	background-color: #9767EB !important; 
+	font-weight: bold !important; 
+	color: white !important;
+	height : 40px;
+
+}
+
+
+/* 전체 인풋박스 css */
+.signupform input{ border: 1px solid #DBDBDB; border-radius: 5px; height: 40px; width: 350px;}
+
+/* 주민번호 입력칸 사이즈 조정 */
+#signResidentNumF{ width: 165px;}
+#signResidentNumS{ width: 165px;}
+
+#signEmail{width: 270px;}
+#ecode{width: 270px;}
+
+/* ----------------------로그인 화면 css ------------- */
+/* 상단 로그인 글자 */
+.loginInfo{margin: 150px 0px 50px 0px; width: 350px;text-align: center;
+color: #9767EB ; font-weight: bold;}
+
+/* 로그인 버튼 */
+.loginbtn{
+	width: 350px; 
+	border: 1px solid #9767EB !important; 
+	background-color: #9767EB !important; 
+	font-weight: bold !important; 
+	color: white !important;
+	height: 50px;
+
+}
+.search{
+	width : 280px; padding-left: 90px;
+	display: flex;justify-content: space-between; margin: 20px 0px; font-size: 13px; font-weight: bold;}
+
+

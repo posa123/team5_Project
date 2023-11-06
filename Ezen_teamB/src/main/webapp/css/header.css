@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* 공통 css */
+*{
+	padding: 0px; margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Nanum Gothic';
+}
+/* a태그, li태그 */
+a{color: black; text-decoration: none;}
+li{list-style-type: none;}
+ul{padding: 0px; margin: 0px;}
+
+a:hover{
+	color: #A287D6;
+}
+
+/* 외부폰트 */
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ 	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.webcontainer{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#header{
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	background-color: #ffffff;
+	font-weight: bold;
+	height: 100px;
+}
+
+/* 로고구역 */
+.mainlogo{
+	width: 5%;
+}
+
+/* 로고 이미지 */
+.mainlogo img{
+	width: 100%;
+}
+
+/* 메인메뉴구역 */
+.mainmenu{
+	width: 60%;
+	display: flex;
+	font-size: 20px;
+}
+
+/* 메인메뉴 */
+.mainmenu li{
+	margin-right: 20px;
+}
+
+/* 물품등록버튼 텍스트 */
+.registerText{
+	color: #A287D6;
+}
+
+/* 서브메뉴구역 */
+.submenu{
+	display: flex;
+	font-size: 13px;
+}
+
+/* 서브메뉴 */
+.submenu li{
+	margin-right: 10px;
+}
+
+.chargePoint button{
+	border: none;
+	background-color: #9767EB;
+	color: white;
+	width: 50px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

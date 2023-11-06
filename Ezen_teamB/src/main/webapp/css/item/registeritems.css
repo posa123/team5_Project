@@ -1,0 +1,346 @@
+/* registeritems.css */
+
+/* ========= 전체 구성 ========= */
+
+
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* 물품 정보 입력란 스타일 */
+.registerItemsWrap {
+    width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+/* 입력 폼 스타일 */
+.registerForm {
+    margin-bottom: 20px;
+}
+
+
+/* 입력 폼 요소 스타일 */
+.inputInfoBox input[type="text"],
+.inputInfoBox input[type="number"],
+
+.ptilte, .pprice{
+	width: 640px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+} 
+
+.inputInfoBox textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ========= 전체 구성 end ========= */
+
+.inputDeskBox{
+	display: flex;
+	width: 780px;
+	
+}
+.deskInfo{
+	width: 150px;
+	font-size: 18px;
+    font-weight: 400;
+    color: rgb(25, 25, 25);
+}
+.rightInputBox{
+	width: 100%;
+}
+.itradeBox{
+	display: flex;
+}
+.itrade{
+	width: 90px;
+	height: 45px;
+	border: 4px solid black;
+	background-color: #EFEFEF;
+	border-radius: 12px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 20px;
+	cursor: pointer;
+
+}
+.itrade:active{
+	background-color: #6AAFE6;	
+}
+.itrade:hover{
+	background-color: #0D6EFD;
+}
+/* -------- 각 입력 박스 구역 ---------- */
+.prtImg{
+	height: 220px;
+	border-bottom: 1px solid #e8e8e8;
+	padding-top: 30px;
+}
+.prtTitle{
+	height: 115px;
+	border-bottom: 1px solid #e8e8e8;
+	padding-top: 30px;
+}
+.prtContent{
+	height: 600px;
+	border-bottom: 1px solid #e8e8e8;
+	padding-top: 30px;
+}
+.prtContent textarea{
+	height: 530px;
+	resize: none;
+}
+.prtCategory{
+	height: 350px;
+	padding-top: 30px;
+}
+.prtSelectCategory{
+	height: 70px;
+}
+.prtTrade{
+	height: 170px;
+	border-top: 1px solid #e8e8e8;	
+	padding-top: 30px;
+}
+.prtPrice{
+	height: 70px;
+	border-top: 1px solid #e8e8e8;	
+	padding-top: 30px;
+	margin-top: 80px;
+}
+.prtPayCheck{
+	border-bottom: 1px solid #e8e8e8;
+	padding-left: 120px;
+	padding-bottom: 30px;
+
+}
+
+/* ----------- 각 입력 박스구역 end ---------- */
+
+.labelBox span{
+	margin-left: 30px; 
+}
+
+.guideEmediation{
+	color: red;
+}
+
+/* 이미지 첨부 입력버튼 */
+.input-file-button{
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	width: 150px;
+	height: 150px;
+}
+
+.labelImg{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #e8e8e8;
+}
+/* 이미지 출력구역 */
+.outputImg{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.outputImg img{
+	width: 150px;
+	height: 150px;
+	margin: 5px 0px 5px 19px;
+	object-fit: contain;
+}
+
+#uploadFile{
+	display: none;
+}
+/* ------ 이미지 첨부구역 end ------ */
+
+
+
+
+
+/* ======== 카테고리 구역 ======== */
+.categoryField{
+	height: 300px;
+	width: 630px;
+	border: 1px solid #CCCCCC;
+	display: flex;
+	margin-right: 20px;
+}
+/* 대분류 카테고리 */
+.umaincategoryBox{
+	width: 315px;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+.umaincategoryBox button{	
+	background-color: transparent;
+	border: 1px solid black;
+	width: 315px;
+	height: 25px;
+}
+
+/* 소분류 카테고리 */
+.dsubcategoryBox{
+	width: 315px;
+	text-align: center;
+	overflow-y: scroll;
+}
+.dsubcategoryBox button{
+	background-color: transparent;
+	border: 1px solid black;
+	width: 315px;
+	height: 25px;
+}
+
+/* 대분류 리스트 내 버튼 너비 지정 */
+.mainUl li button{
+	width: 90%;
+	height: 30px;
+	border: none;
+	font-size: 17px;
+	text-align: left;
+	margin: 10px 0px 10px 21px;
+}
+.mainUl li:hover{
+	background-color: #e8e8e8;
+}
+
+/* 소분류 리스트 내 버튼 너비 지정 */
+.subUl li button{
+	width: 90%;
+	height: 30px;
+	border: none;
+	font-size: 17px;
+	text-align: left;
+	margin: 10px 0px 10px 21px;
+}
+.subUl li:hover{
+	background-color: #e8e8e8;
+}
+
+.defaultCategory div{
+	width: 290px;
+	height: 40px;
+	margin-top: 130px; 
+	text-align: center;
+	color: grey;
+}
+
+.selectCategory{
+	margin-left: 130px;
+	position:relative;
+	color: red;
+}
+.checkMain, .checkSub{
+	display: inline-block;
+	font-weight: bold;
+}
+
+/* 등록시 form전송을 위해 input을 가림 */
+.selectCategory div{
+	width: 610px;
+	height: 100px;
+	position:absolute;
+	z-index: 10;
+}
+.selectCategory input{
+	width: 400px !important;
+	border: none !important;
+	z-index: 1;
+	color: transparent;
+}
+/* ======== 카테고리 구역 end ========*/
+
+
+
+/* ======== 제목 내용 구역 ======== */
+/* 페이지 타이틀 스타일 */
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.rightInputBox textarea{
+	width: 640px;
+}
+
+
+
+
+.bottomBtn{
+	margin-top: 54px;
+    margin-bottom: 200px;
+    text-align: center;
+    border: none;
+    
+}
+
+.bottomBtn button{
+	width: 220px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* ======== 제목 내용 구역 end ======== */
+
+
+/* ======== 지도 출력 구역 ======== */
+
+.selectedAddress{
+	margin-top: 30px;
+	color: red;
+	
+}
+
+
+
+
+
+
+/* 안전결제 메시지 스타일 */
+.safePayment {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+	vertical-align: middle;
+	display: flex;
+}
+.safePayment div{
+	margin-left: 10px;
+}
+.safePayment input[type="checkbox"] {
+	zoom: 2.0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

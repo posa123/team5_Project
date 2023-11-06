@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* ===================== 물품조회 상단 검색, 필터 기능 */
+.checkItemsWrap{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 40px;
+	border: 1px solid #e8e8e8;
+}
+.searchValue{
+	width: 300px;
+	margin-left: 30px;
+}
+.searchWord{
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.topField{
+	border: 2px solid black;
+	border-radius: 23px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.topField span{
+	color: red; font-weight: bold;
+}
+/* 카테고리 선택구역 */
+	/* 대분류 */
+.topCategory{
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	
+}
+.searchAllBtn{
+	border-radius: 20px;
+	background-color: #A287D6;
+	padding: 3px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.topCategory table{
+	width: 100%
+}
+.topCategory td{
+	border: 1px solid #e8e8e8;
+	width: 203px;
+	padding-left: 12px;
+	height: 34px;
+	
+}
+	/* 소분류 */
+.bottomCategory{
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	
+}
+.bottomCategory table{
+	width: 100%
+}
+.bottomCategory td{
+	border: 1px solid #e8e8e8;
+	width: 203px;
+	padding-left: 12px;
+	height: 34px;
+	font-size: 14px;
+}
+
+.guideLabel{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* 마우스 오버(마우스 올렸을때) */
+.topCategory td:hover {
+	background-color:#A287D6;
+	cursor: pointer;
+}
+.bottomCategory td:hover {
+	background-color:#A287D6;
+	cursor: pointer;
+}
+
+
+
+/* ==================== 카드구역 */
+.card{
+	height: 359px !important;
+	border: none !important;
+}
+.card-img-top{
+	width: 180px;
+	height: 180px;
+	object-fit: contain !important;
+}
+.itemCardTitle{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.itemCardAdress{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+}
+
+
+
+/* 물품포인트 */
+
+/* 제목 */
+.tfont1{font-weight: bold; font-size: 25px;}
+/* 가격 */
+.tfont2{font-size: 20px; color:#A287D6; font-weight: bold;}
+/* 안전결제 */
+.tfont3{font-size: 15px; color:blue;font-weight: bold; margin: 3px 0px;}
+/* 대면거래 */
+.tfont4{font-size: 15px; }
+/* 날짜 */
+.tfont5{font-size: 12px; }
+
+/* 물품 포인트 종료 */
+
+
+
+
+
+
+
+
+
+
+

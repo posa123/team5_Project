@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.outputUmaincategory td{
+	font-family: 'NPSfontBold' !important;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+html , body{ 
+	/* 부모요소의 사이즈가 존재하면 자식요소의 사이즈 기준점 */
+	height: 100%; 	/* 기본값 auto */
+	width: 100%;	 /* 기본값 */
+	-ms-overflow-style:none; /* [1] 해당 구역의 스크롤바 숨기기 */
+}
+
+#map{ width: 100% !important; height: 100% !important; }
+
+.mapfull{width: 100% !important;height: 800px !important;} /* 메인페이지만 풀 사이즈 */
+
+.indexWrap{
+	width: 1100px;
+	margin: 0 auto;
+	border: 1px solid #e8e8e8; 
+}
+
+.topField{
+	position : fixed;
+	left : 3%;
+	top : 10%;
+	width: 400px;
+    margin: 0 auto;
+	border-radius: 23px;
+	margin-bottom: 20px;
+	padding: 20px;
+	margin-top: 20px;
+	z-index : 9999; 
+	background-color: #ffffffcc
+}
+.categorybox{
+	text-align: end;
+}
+.topField span{
+	color: black;
+	font-family: 'NPSfontBold' !important;
+}
+/* 카테고리 선택구역 */
+	/* 대분류 */
+.topCategory{
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	
+}
+.searchAllBtn{
+    background-color: #ffffff;
+    padding: 2px 6px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #A287D6;
+    border: 1px solid #A287D6;
+}
+.topCategory table{
+	width: 100%
+}
+.topCategory td{
+	border: 1px solid #e8e8e8;
+	width: 203px;
+	height: 34px;
+	font-size: 12px;
+	padding-left: 12px;
+}
+	/* 소분류 */
+.bottomCategory{
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	
+}
+.bottomCategory table{
+	width: 100%
+}
+.bottomCategory td{
+	border: 1px solid #e8e8e8;
+	width: 203px;
+	font-size: 10px;
+	padding-left: 6px;
+	height: 34px;
+}
+
+/* 마우스 오버(마우스 올렸을때) */
+.topCategory td:hover {
+	background-color: silver;
+	cursor: pointer;
+}
+.bottomCategory td:hover {
+	background-color: silver;
+	cursor: pointer;
+}
+
+.guideLabel{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+/* ==================== 지도구역 */
+.mainField{
+	width: 100% !important;  height: 850px !important;
+}
+
+
+/* ==================== 카드구역 */
+.card{
+	height: 222px !important;
+	border: 3px solid #9767EB !important;
+	border-radius: 0% !important;
+}
+.card-img-top{
+	width: 150px;
+	height: 120px;
+	object-fit: contain !important;
+}
+.itemCardTitle{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 10 !important;
+	font-weight: bold;
+}
+.itemCardPrice{
+	font-size: 8 !important;
+}
+.itemCardAdress{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 8 !important;
+}
+.card-body div{
+	border-top: 1px solid #e8e8e8;
+}

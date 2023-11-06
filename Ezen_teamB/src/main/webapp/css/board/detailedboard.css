@@ -1,0 +1,93 @@
+.boardTop{
+	color:#A287D6;
+	text-align: center;
+	border-bottom: 1px solid #A287D6;
+}
+.boardTop h3{
+	font-weight:bold;
+}
+.boardBox{
+	
+	height: 600px;
+}
+.detailedTop{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #A287D6; 
+}
+.boardBottom{
+	display: flex;
+	justify-content: space-between;
+}
+.boardBottom{
+	border-top: 1px solid #A287D6;
+}
+.detailedContent{
+	margin: 10px 10px;
+}
+.detiledFile{
+	border-radius :10px;
+	border: 1px solid #A287D6;
+	margin: 10px 10px;
+	background-color: #e8e8e8;
+}
+.boardReply{
+	margin: 10px 10px;
+}
+.detailbtn{
+	margin: 10px 10px;
+}
+.boardReply{
+	
+	width: 100%;
+}
+.bottomBtn{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 10px; 
+}
+.rlist{
+	margin: 10px 10px; 
+}
+.bottomBtn button{
+	border: none;
+	background-color: #A287D6;
+	border-radius: 10px;
+	
+}
+.boardReply{
+	display: flex;
+	justify-content: space-between;
+}
+.replyTextarea{
+	width: 100%;
+}
+.replyInfo{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.boardReplyContent{
+	background-color: #e8e8e8;
+}
+.replyContent{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	margin: 15px 10px;
+	
+
+}
+.replyBtn{
+	border: none;
+	background-color: #A287D6;
+	border-radius: 10px;
+}
+.rcontent{
+	resize: none; 
+}
+.replyBottom button{
+	border: none;
+	background-color: #A287D6;
+	
+}

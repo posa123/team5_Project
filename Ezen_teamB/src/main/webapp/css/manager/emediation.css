@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.insertBox{
+	display: flex;
+
+}
+
+.eTableBox{
+	width: 100%;
+	position: absolute;
+    top: 430px;
+}
+
+.eTable{
+	border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.eTable th{
+	background-color: #4474A2;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.eTable td{
+	text-align: center;
+}
+
+th:nth-child(1) {
+    width: 150px;
+}
+
+th:nth-child(2) {
+    width: 150px;
+}
+
+th:nth-child(3) {
+    width: 400px;
+}
+
+th:nth-child(4) {
+    width: 170px;
+}
+
+/* 수정 삭제 버튼*/
+.udBtn{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

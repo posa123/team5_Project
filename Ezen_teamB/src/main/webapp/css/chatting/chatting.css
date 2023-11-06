@@ -1,0 +1,160 @@
+@charset "EUC-KR";
+
+
+/* 채팅 전체구역 */
+.chatbox{
+	width: 40%;
+	margin: 20px auto;
+	box-shadow: 0px 0px 3px #9e9e9e;		/* 구역 그림자 */
+}
+
+/* 채팅내용 목록 */
+.chatcont{
+	height: 650px;
+	background-color: #3B3B3B;
+	padding: 10px;
+	/* 만약에 내용물이 구역보다 커텼을때 */
+	overflow-y: scroll;			/* y축 스크롤 */
+}
+
+/* 채팅입력창, 전송버튼 구역 */
+.chatbottom{
+	height: 50px;	
+	display: flex;
+}
+
+.chatbottom textarea{
+	width: 80%;
+	border: 1px solid #e8e8e8;
+	padding: 15px;
+	resize: none;
+}
+
+.sendbtn{
+	width: 20%;
+	border: none;
+	border-radius: 5px;
+	background-color: #A287D6;
+}
+
+/* 보냈을때 */
+.rcont{
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px 0px;
+}
+
+.rcont .subcont{
+	justify-content: flex-end;
+}
+
+.rcont .content{
+	background-color: #A287D6;
+}
+
+.date{
+	color: white;
+}
+
+/* 받았을때 */
+.lcont{
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 0px;
+}
+
+.lcont .content{
+	background-color: #ffffff;
+}
+
+.name{
+	color: white;
+}
+
+.lcont .subcont{
+	justify-content: flex-start;
+}
+
+.lcont .pimg{
+	width: 50px; height: 50px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.subcont{
+	display: flex;
+	align-items: flex-end;
+}
+
+/* 메시지 내용 */
+.content{
+	max-width: 80%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 5px;
+	word-break: break-all;
+}
+
+.date{
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.name{
+	margin-left: 8px;
+	margin-bottom: 3px;
+}
+
+/* 알림 메시지 */
+.alram{
+	width: 70%; margin: 20px auto;
+	background-color: #B1C3D5;
+	text-align: center;
+	border-radius: 5px; 
+	padding: 5px;
+}
+
+
+/* 이모지 css */
+.emobtn{
+	font-size: 20px;	/* 폰트어썸 이모지 크기 */
+	background-color: transparent;		/* 투명색 */
+	border: none;
+	margin: 5px 20px;
+	background-color: #ffffff;
+}
+
+.emolistbox{
+	width: 300px;	height: 300px;
+	overflow-y: scroll;
+}
+
+.emolistbox img{
+	width: 60px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

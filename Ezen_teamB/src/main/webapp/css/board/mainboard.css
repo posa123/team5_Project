@@ -1,0 +1,66 @@
+
+.boardTop h3{
+	text-align: center;
+	font-weight: bold;
+	color:#A287D6;
+}
+.boardmid{
+	margin: 15px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.boardBottom{
+	display : flex;
+	justify-content: center;
+}
+.search{
+	padding : 10px 10px;
+	margin : 25px 25px;
+	display: flex;
+	justify-content: center;
+}
+.boardcontent{
+	display: flex;
+	justify-content: center;
+}
+.boardTable th td{
+	padding: 15px 15px 15px 15px;
+	background-color: #A287D6;
+}
+.boarTable{
+	margin-left: 15px;
+}
+.mainBoardBtn button{
+	padding:8px 8px;
+	font-size : 13px;
+	color:white;
+	background-color: #A287D6;
+	border-radius: 10px;
+	border: none;
+}
+.pagebox button{
+	margin :5px 5px;
+	border: none;
+	background-color: transparent;
+}
+.searchBtn{
+	border: none;
+}
+
+
+
+.boardpoint{text-align: center;  }
+.boardpoint th{background-color:#A287D6 !important; color: white !important;}
+
+.boardtopetc{align-items: center;
+	display:flex;justify-content: flex-end; 
+	margin: 0 auto;
+	width: 1200px;}
+	
+	
+.boardTable th:nth-child(1){width:5%;}
+.boardTable th:nth-child(2){width:15%;}
+.boardTable th:nth-child(3){width:50%;}
+.boardTable th:nth-child(4){width:10%;}
+.boardTable th:nth-child(5){width:20%;}

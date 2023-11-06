@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* ================= 상단 구역 */
+
+.dateInput{
+	display: flex;	
+	justify-content: start;
+	background-color: #4474A2;
+}
+
+/* 날짜 선택 구역 */
+.inputBox{
+	display: flex;
+	padding: 20px;
+	margin-right: 30px;
+}
+
+.inputBox p{
+	margin: 0px 10px;
+	font-weight: bold;
+}
+
+.memberListTopField{
+	display: flex;
+	justify-content: space-between;
+	background-color: #4474A2;
+}
+.totalMember {
+	display: flex;	
+    align-items: center; /* 세로로 가운데 정렬 */
+    margin-right: 20px;
+}
+
+
+
+/* 검색 구역 스타일 */
+.searchMember{
+	margin: 20px 0px 20px 20px;
+}
+.searchMember input{
+	width: 280px;
+	margin-right: 20px;
+}
+.totalInnerBox{
+	color: white;
+}
+.totalInnerBox span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.onSearchMemberBtn{
+	padding: 2px;
+	width: 56px;
+	height: 32px;
+	border-radius: 5px;
+}
+
+
+
+/* =================== 테이블 스타일 */
+.memberTableBox{
+	width: 100%;
+	height: 448px;
+	
+	
+}
+.memberListTable {
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.memberListTable th, .memberListTable td {
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* 첫 번째 행(테이블 헤더) 스타일 */
+.memberListTable th {
+    background-color: #f2f2f2;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.memberListTable td{
+	height: 30px;
+	text-align: center;	
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+	
+/* 첫 번째 th (성명) 스타일 */
+th:nth-child(1) {
+    width: 100px;
+}
+
+/* 두 번째 th (생년월일) 스타일 */
+th:nth-child(2) {
+    width: 110px;
+}
+
+/* 세 번째 th (전화번호) 스타일 */
+th:nth-child(3) {
+    width: 110px;
+}
+
+/* 네 번째 th (이메일) 스타일 */
+th:nth-child(4) {
+    width: 210px;
+}
+
+/* 여섯 번째 th (아이디) 스타일 */
+th:nth-child(5) {
+    width: 110px;
+}
+
+/* 일곱 번째 th (포인트) 스타일 */
+th:nth-child(6) {
+    width: 130px;
+}
+
+/* 일곱 번째 th (포인트) 스타일 */
+th:nth-child(7) {
+    width: 130px;
+}
